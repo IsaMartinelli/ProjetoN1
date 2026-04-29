@@ -1,4 +1,4 @@
-#Proposta de Trabalho - Desenvolvimento Web
+# Proposta de Trabalho - Desenvolvimento Web
 
 Este trabalho atribuirá uma nota ao aluno com o propósito de analisar seus conhecimentos
 adquiridos ao longo do semestre sobre a disciplina "Desenvolvimento Web".
