@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.film {
+    background-color: #96a481;
+    margin: 10px;
+    width: 95%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+}
