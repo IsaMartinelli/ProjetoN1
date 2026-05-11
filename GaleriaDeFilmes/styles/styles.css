@@ -4,22 +4,40 @@
     padding: 0;
 }
 
+body {
+    height: 100%;
+}
+
 .header {
     background-color: #7a8964;
+    /* background-size: cover; */
+    position: fixed;
     height: 100px;
+    width: 100%;
 
     display: flex;
     align-items: center;
+    justify-content: center;   
 }
 
 .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cinestiny {
+    width: 400px;
 }
 
 .main {
     background-color: #a9b893;
+    height: 100vh;
 }
 
 .footer {

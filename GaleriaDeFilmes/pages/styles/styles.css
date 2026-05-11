@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+.main {
+    background-color: #a9b893;
+    /* height: 100vh; */
+
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
 .film {
     background-color: #96a481;
     margin: 10px;
@@ -12,4 +22,14 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.filmImg {
+    width: 190px;   
+}
+
+.img {
+    border-radius: 10px;
+    overflow: hidden;
 }
