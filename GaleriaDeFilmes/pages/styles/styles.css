@@ -19,6 +19,7 @@
     margin: 10px;
     width: 95%;
     height: 300px;
+    border-radius: 15px;
 
     display: flex;
     justify-content: center;
@@ -32,4 +33,27 @@
 .img {
     border-radius: 10px;
     overflow: hidden;
+}
+
+.txt {
+    width: 70%;
+    padding: 20px;
+}
+
+.info {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sinopse {
+    width: 60%;
+    padding: 20px;
+}
+
+.informacoes {
+    width: 40%;
+    padding: 20px;
 }
