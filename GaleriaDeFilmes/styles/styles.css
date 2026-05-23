@@ -1,3 +1,16 @@
+html {
+    /* Hide scroll bar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge legacy */
+}
+
+.playfair-display-font1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -23,8 +36,17 @@ body {
 
 .links {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+    align-content: space-evenly;
+}
+
+.links a {
+    font-family: Playfair Display;
+    color: #354552;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 90px;
 }
 
 header nav {
@@ -50,16 +72,43 @@ iframe {
 .footer {
     background-color: #7a8964;
     height: 100px;
+    /* bottom: 0; */
 
     display: flex;
+    /* display: fixed; */
     justify-content: space-evenly;
     align-items: center;
+    align-content: center;
+}
+
+.Qlink  h5 {
+    color: #2e3f4d;
+    font-family: Playfair Display;
+}
+
+.Qlink a {
+    text-decoration: none;
+    color: #354552;
 }
 
 .Qlink {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.owners h5 {
+    color: #2e3f4d;
+    font-family: Playfair Display;
+}
+
+.owners p {
+     color: #354552;
+}
+
+.contact h5 {
+    color: #2e3f4d;
+    font-family: Playfair Display;
 }
 
 .owners {
@@ -82,4 +131,5 @@ iframe {
 
 .contact ul li {
    list-style: none;
+    color: #354552;
 }
