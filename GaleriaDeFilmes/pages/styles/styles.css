@@ -4,6 +4,44 @@ html {
   -ms-overflow-style: none; /* IE/Edge legacy */
 }
 
+.bhutuka-expanded-one-regular {
+  font-family: "BhuTuka Expanded One", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.biorhyme-expanded-extralight {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.biorhyme-expanded-light {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.biorhyme-expanded-regular {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.biorhyme-expanded-bold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.biorhyme-expanded-extrabold {
+  font-family: "BioRhyme Expanded", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -20,12 +58,33 @@ html {
     flex-wrap: wrap;
 }
 
+.welcomePage {
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeTxt {
+    margin-bottom: 50px;
+}
+
+/* .homeLogo {
+    ali
+} */
+
 .film {
     background-color: #96a481;
     margin: 10px;
     width: 95%;
     /* height: 300px; */
     border-radius: 15px;
+    border-style: solid;
+    border-color: #354552;
+    border-width: 1px;
+    /* border: #354552; */
     padding: 15px;
 
     display: flex;
@@ -50,6 +109,9 @@ html {
 
 .txt h3 {
     margin: 20px;
+    margin-left: 40px;
+    font-family: BioRhyme Expanded;
+    color: #1e2e3b;
 }
 
 .info {
@@ -65,9 +127,31 @@ html {
 .sinopse {
     width: 60%;
     padding: 20px;
+
+     
+}
+
+.sinopse p {
+     font-family: BioRhyme Expanded;
+     font-size: 12px;
+     color: #25333f;
 }
 
 .informacoes {
     width: 40%;
     padding: 20px;
+
+    
+}
+
+.informacoes p {
+     font-family: BioRhyme Expanded;
+      font-size: 12px;
+      color: #25333f;;
+}
+
+.informacoes p strong {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #111a22;
 }
